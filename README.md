@@ -14,7 +14,7 @@ Repository link:
 https://github.com/earlbellen/cmsc207_MiniProject.git
 ```
 
-## Short Reflection
+## Short Reflection and What I Learned
 Building the layout pushed me to think carefully about spacing, alignment, and how images behave at different sizes. The biggest challenge was keeping the hobby images consistent and readable while preserving faces and upper‑body framing. I solved it by standardizing image dimensions and using `object-fit` plus a slightly elevated `object-position`, then refining the grid and media queries to keep the composition clean on smaller screens.
 
 This mini‑project helped me see how small CSS choices can dramatically improve the overall feel of a site. I learned how to structure a single‑page profile with semantic sections, design a coherent color system, and add a simple JavaScript interaction without cluttering the UI. It also reinforced the value of iterating: tweak, preview, and tweak again until the layout feels balanced.
@@ -39,15 +39,3 @@ This mini‑project helped me see how small CSS choices can dramatically improve
     }
   }
   ```
-
-## What I Learned
-- How small CSS decisions (like `object-fit`, `object-position`, and spacing) can dramatically improve a layout without changing the HTML structure.
-- How to organize a single-page layout using semantic sections and reusable classes to keep the code clean.
-- How a small JavaScript function can add quick interactivity without cluttering the page.
-  ```js
-  button.addEventListener("click", () => {
-    const pick = facts[Math.floor(Math.random() * facts.length)];
-    output.textContent = pick;
-  });
-  ```
-- How to pair a consistent color system with typography choices to create a professional and cohesive visual style.
