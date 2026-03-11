@@ -1,5 +1,7 @@
 # CMSC 207 Mini-Project: Personal Web Profile
 
+Author: Daven Earl Bellen
+
 This repository contains my single-page personal website for the CMSC 207 mini-project. The site features a header, about section with a profile photo, hobbies with images, and a contact section. It uses semantic HTML, an external stylesheet for layout and typography, and a small JavaScript interaction that shows a fun fact on button click. The design follows a neutral, professional color palette and includes responsive behavior for smaller screens.
 
 ## Live Demo
